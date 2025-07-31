@@ -10,17 +10,45 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "tab",
+		"indentWidth": 2,
+		"lineWidth": 80,
+		"formatWithErrors": false
 	},
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"style": {
+				"useBlockStatements": "warn",
+				"useShorthandFunctionType": "error"
+			},
+			"correctness": {
+				"useExhaustiveDependencies": "error",
+				"noUnusedVariables": "error"
+			},
+			"a11y": {
+				"useValidAriaProps": "error",
+				"useAnchorContent": "error"
+			},
+			"nursery": {
+				"useSortedClasses": "warn"
+			}
 		}
 	},
 	"javascript": {
 		"formatter": {
-			"quoteStyle": "double"
+			"quoteStyle": "double",
+			"semicolons": "asNeeded",
+			"trailingCommas": "es5",
+			"arrowParentheses": "asNeeded"
+		}
+	},
+	"json": {
+		"formatter": {
+			"indentStyle": "space",
+			"indentWidth": 2,
+			"lineWidth": 80
 		}
 	},
 	"assist": {
