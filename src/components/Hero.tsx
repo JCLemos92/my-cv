@@ -1,5 +1,4 @@
-import React from "react"
-import { FaLinkedin, FaEnvelope, FaGithub } from "react-icons/fa"
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
 import type { HeroProps } from "../models/CvModels"
 
 export const Hero = ({
