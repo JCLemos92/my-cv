@@ -5,9 +5,9 @@ export const Landing = () => {
 	const heroText: HeroProps = {
 		name: "João Lemos",
 		description: "Software Engineer",
-		linkedinUrl: "asd",
-		email: "asd",
-		githubUrl: "asd",
+		linkedinUrl: "https://www.linkedin.com/in/jclemos/",
+		email: "joaocarlosfonsecapinalemos@hotmail.com",
+		githubUrl: "https://github.com/JCLemos92",
 	}
 
 	return (
@@ -19,7 +19,7 @@ export const Landing = () => {
 				email={heroText.email}
 				githubUrl={heroText.githubUrl}
 			/>
-			<div id="about" className="m-10 leading-tight">
+			<div id="about" className="p-10 leading-tight">
 				<h2 className="text-3xl font-bold mb-8 text-center animate-fade-in">
 					About Me
 				</h2>
