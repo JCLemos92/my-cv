@@ -8,7 +8,7 @@ import { Career } from "./pages/Career.tsx"
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
-		<Router basename="/my-cv">
+		<Router>
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Landing />} />
