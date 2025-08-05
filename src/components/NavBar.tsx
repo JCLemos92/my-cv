@@ -6,7 +6,10 @@ export const NavBar = () => {
 			{/* Navigation */}
 			<nav className="sticky top-0 bg-white dark:bg-gray-800 shadow-md py-4">
 				<div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
-					<h1 className="text-xl font-bold">João Lemos</h1>
+					<h1 className="text-xl font-bold flex items-center">
+						<img src="logo.png" alt="mylogo" className="h-8 mr-4" />
+						João Lemos
+					</h1>
 					<ul className="flex space-x-4">
 						<li>
 							<Link to="/" className="hover:text-blue-500">
@@ -18,10 +21,11 @@ export const NavBar = () => {
 								Experience
 							</Link>
 						</li>
-						{/* <li><a href="#skills" className="hover:text-blue-500">Skills</a></li>
-                <li><a href="#experience" className="hover:text-blue-500">Experience</a></li>
-                <li><a href="#projects" className="hover:text-blue-500">Projects</a></li>
-                <li><a href="#contact" className="hover:text-blue-500">Contact</a></li> */}
+						<li>
+							<Link to="education" className="hover:text-blue-500">
+								Education
+							</Link>
+						</li>
 					</ul>
 				</div>
 			</nav>

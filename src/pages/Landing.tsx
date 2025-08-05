@@ -29,10 +29,11 @@ export const Landing = () => {
 						sleek, data-driven web applications using Angular and TypeScript in
 						the finance and transport sectors. As a visual thinker, I see coding
 						as solving puzzles, crafting intuitive, pixel-perfect interfaces
-						that make complex problems feel simple. Explore my portfolio to see
+						that make complex problems feel simple.
+						{/* Explore my portfolio to see
 						small projects I’m tackling in my free time, starting with this very
 						website, built with React and Tailwind to showcase my growing skills
-						in a new stack.
+						in a new stack. */}
 					</p>
 					<p>
 						Recently, I’ve been diving into React, building this very website to

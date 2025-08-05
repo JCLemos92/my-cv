@@ -17,3 +17,19 @@ export interface CompanyCardProps {
 	methodologies: string[]
 	years: string
 }
+
+export interface AcademicCardProps {
+	institution: string
+	logoUrl: string | null
+	courseTitle: string
+	certificationUrl: string | null
+	year: string
+}
+
+export interface CertificationCardProps {
+	institution: string
+	logoUrl: string | null
+	title: string
+	certificationUrl: string | null
+	date: string
+}
