@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export const NavBar = () => {
 	return (
 		<div className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
@@ -7,14 +9,14 @@ export const NavBar = () => {
 					<h1 className="text-xl font-bold">João Lemos</h1>
 					<ul className="flex space-x-4">
 						<li>
-							<a href="/" className="hover:text-blue-500">
+							<Link to="/" className="hover:text-blue-500">
 								About
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a href="career" className="hover:text-blue-500">
+							<Link to="career" className="hover:text-blue-500">
 								Experience
-							</a>
+							</Link>
 						</li>
 						{/* <li><a href="#skills" className="hover:text-blue-500">Skills</a></li>
                 <li><a href="#experience" className="hover:text-blue-500">Experience</a></li>
